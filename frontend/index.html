@@ -7,60 +7,130 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="login-box">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAEGdv2F9ST9i_w1JjDqWvhi5wNx_zkfKfgSdbhH_Rbg&s=10">
-    <form onsubmit="loginUser(event)">
-  <input type="text" id="username" placeholder="Username" required><br><br>
-  <input type="password" id="password" placeholder="Password" required><br><br>
-  <button type="submit">Login</button>
-</form>
 
-      <div class="divider">
-        <span>OR</span>
-      </div>
+<div class="container">
 
-      <div class="fb-login">
-        <button>
-           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png" alt="">          
-            <span><a href="https://www.facebook.com/" target="_blank">log in with facebook</a></span>
-        </button>
-      </div>
-      <a href="#" class="forgot">Forgot password?</a>
-    </div>
-    <div class="signup-box">
-      <p>Don't have an account? <a href="#">Sign up</a></p>
-    </div>
+  <div class="login-box">
 
-    <div class="get-app">
-      <p>Get the app.</p>
-      <div class="app-buttons">
-        <button>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="">
-        <span><a href="https://appstoreconnect.apple.com/login" target="_blank">app store</a></span>
-        </button>
-        <button>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Google_Play_Store_badge_FR.svg/1280px-Google_Play_Store_badge_FR.svg.png" alt="">
-          <span><a href="https://play.google.com/store/myplayactivity">google play store</a></span>
-        </button>
-      </div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAEGdv2F9ST9i_w1JjDqWvhi5wNx_zkfKfgSdbhH_Rbg&s=10" alt="Instagram Logo">
+
+    <form id="loginForm">
+
+      <input
+        type="text"
+        id="username"
+        placeholder="Username"
+        required
+      >
+
+      <br><br>
+
+      <input
+        type="password"
+        id="password"
+        placeholder="Password"
+        required
+      >
+
+      <br><br>
+
+      <button type="submit">
+        Log In
+      </button>
+
+    </form>
+
+    <div class="divider">
+      <span>OR</span>
     </div>
 
-    <footer>
-      <ul>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">HELP</a></li>
-        <li><a href="#">PRESS</a></li>
-        <li><a href="#">API</a></li>
-        <li><a href="#">JOBS</a></li>
-        <li><a href="#">PRIVACY</a></li>
-        <li><a href="#">TERMS</a></li>
-        <li><a href="#">LOCATIONS</a></li>
-      </ul>
-      <p>© 2020 INSTAGRAM FROM FACEBOOK</p>
-    </footer>
+    <div class="fb-login">
+
+      <button>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/960px-Facebook_logo_%28square%29.png" alt="Facebook">
+
+        <span>
+          <a href="https://www.facebook.com/" target="_blank">
+            Log in with Facebook
+          </a>
+        </span>
+
+      </button>
+
+    </div>
+
+    <a href="#" class="forgot">
+      Forgot password?
+    </a>
+
   </div>
 
-  <script src="script.js"></script>
+  <div class="signup-box">
+
+    <p>
+      Don't have an account?
+      <a href="register.html">
+        Sign up
+      </a>
+    </p>
+
+  </div>
+
+  <div class="get-app">
+
+    <p>Get the app.</p>
+
+    <div class="app-buttons">
+
+      <button>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png">
+
+        <span>
+          <a href="https://appstoreconnect.apple.com/login" target="_blank">
+            App Store
+          </a>
+        </span>
+
+      </button>
+
+      <button>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Google_Play_Store_badge_FR.svg/1280px-Google_Play_Store_badge_FR.svg.png">
+
+        <span>
+          <a href="https://play.google.com/store" target="_blank">
+            Google Play
+          </a>
+        </span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+  <footer>
+
+    <ul>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">HELP</a></li>
+      <li><a href="#">PRESS</a></li>
+      <li><a href="#">API</a></li>
+      <li><a href="#">JOBS</a></li>
+      <li><a href="#">PRIVACY</a></li>
+      <li><a href="#">TERMS</a></li>
+      <li><a href="#">LOCATIONS</a></li></srver>
+    </ul>
+
+    <p>© 2026 INSTAGRAM CLONE</p>
+
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
