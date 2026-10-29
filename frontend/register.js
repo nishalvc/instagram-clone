@@ -7,7 +7,8 @@ document.getElementById("registerForm").addEventListener("submit", async functio
 
     try {
 
-        const response = await fetch("http://localhost:5000/register", {
+        // const response = await fetch("http://localhost:5000/register", {
+        const response = await fetch("https://instagram-clone-yk37.onrender.com/register", {
 
             method: "POST",
 
